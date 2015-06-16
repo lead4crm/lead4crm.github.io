@@ -1,10 +1,10 @@
 # Site settings
-title: HEAD<s>CRAB</s>BLOG
-tagline: Корпоративный бложик...
+title: HEAD <s>CRAB</s> BLOG
+tagline: Все самое свежее по работе системы Lead4CRM
 email: hello@lead4crm.ru
 description: > # this means to ignore newlines until "baseurl:"
-  Hi, I’m a professional UI/UX designrer and web developer. 
-  I love being minimal and creative.
+  Салют! Вероятно вам стало интересно почитать наш блог, узнавая
+  новости и различные полезности, прямо из первых рук и еще очень горячее. 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.lead4crm.ru" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
