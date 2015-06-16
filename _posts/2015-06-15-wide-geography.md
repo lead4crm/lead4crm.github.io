@@ -3,7 +3,7 @@ layout: post
 title: "Мы расширили географию"
 category: 
 - news
-- Битрикс24
+- bitrix24
 banner_image: funny-maps.jpg
 comments: true
 ---
