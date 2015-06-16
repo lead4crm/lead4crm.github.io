@@ -65,4 +65,3 @@ sass:
 gems:
   - jemoji
   - jekyll-sitemap
-  - i18n_filter
