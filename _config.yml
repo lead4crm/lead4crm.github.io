@@ -62,6 +62,6 @@ sass:
 
 
 # Add Jekyll plugin
-gems:
+gems: 
   - jemoji
   - jekyll-sitemap
