@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.lead4crm.ru" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
-author: "Lead4CRM"
+author: "Главный хомяковый разработчик"
 author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
 # Theme customization - please change from the defaults!
 theme:

@@ -7,28 +7,28 @@
       alt="{{ site.title }}" width="60" height="60" />
   </a>
   {% endif %}
-  <h5>Author</h4>
+  <h5>Автор</h4>
   <h6>
     <a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">
       {{ site.author }}
     </a>
   </h5>
   <p>
-    Find me on
+    Ищите нас в
     {% if site.theme.social.twitter %}
-        <a title="{{ site.theme.social.twitter }} on Twitter" 
+        <a title="{{ site.theme.social.twitter }} в Twitter" 
             href="https://twitter.com/{{ site.theme.social.twitter }}" 
             class="twitter" target="_blank">Twitter</a>
+        /
     {% endif %}
-    /
     {% if site.theme.social.facebook %}
-        <a title="{{ site.theme.social.facebook }} on Facebook" 
+        <a title="{{ site.theme.social.facebook }} в Facebook" 
             href="https://facebook.com/{{ site.theme.social.facebook }}" 
             class="facebook" target="_blank">Facebook</a>
+        /
     {% endif %} 
-    /
     {% if site.theme.social.gplus %}
-        <a title="{{ site.theme.social.gplus }} on Google Plus" 
+        <a title="{{ site.theme.social.gplus }} в Google Plus" 
             href="https://plus.google.com/{{ site.theme.social.gplus }}" 
             class="google" target="_blank">Google</a>
     {% endif %}
