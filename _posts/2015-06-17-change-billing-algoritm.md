@@ -4,7 +4,7 @@ title: "Поменяли алгоритм тарификации"
 category: 
 - news
 - billing
-banner_image: new-billing.jpg
+banner_image: new_billing.jpg
 comments: true
 ---
 И снова мы выполняем свои обещания перед нашими клиентами. Как и рассказывали многим нашим клиентам &mdash; мы перестали брать деньги или вычитать запросы на поисковые запросы.
