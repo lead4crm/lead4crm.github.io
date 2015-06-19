@@ -3,22 +3,25 @@ layout: page
 title: О нашем блоге
 permalink: /about/
 banner_image: sample-banner-image-2.jpg
-banner_image_alt: About me
+banner_image_alt: О нашем блоге
 ---
 
-Hi, I am Tom Warlker. I am a professional UI/UX designrer and web developer. I love being minimal and creative.
+Приветик! Меня зовут Хомяк Колотун, и я главный хомяковый разработчик. Этот блог чтобы быстро и оперативно ставить в курс дела о нашей деятельности всех интересующихся. Конечно же этот блог целиком и полностью принадлежит группе разработчиков «[Генератора лидов][lead4crm]» и поэтому новости и события освещаются только касательно этого продукта.
 
-I prefer to serve with Php and Ruby based stacks and also love to work 
-on [Jekyll][jekyll] and [Processwire CMS/CMF][pw].
+Если вы еще не знаете что это за продукт и каким-то странным образом попали в этот блог, то рекомендую начать с изучения [первоисточника][lead4crm].
 
-### Contact me
+Если же после прочтения вы решились воспользоваться Битрикс24 вместе с нашим продуктом: [милости просим][bx24_with_lead4crm].
 
-Say `Hello` at [webcreatelk@gmail.com]({{ site.email }}) or find
-me on
+А может быть у вас уже есть Битрикс24 и вам захотелось установить наше приложение в свой Битрикс24, то вот сюда [нажимайте][bx24_lead4crm] и будет счастье.
+
+### Контакты
+
+Если есть вопросы или предложения пишите на [help@lead4crm.ru](mailto:{{ site.email }}) или через социальные сети в наших официальных группах.
 
 ---
 
 {% include social.html %}
 
-[pw]: http://processwire.com
-[jekyll]: http://jekyllrb.com
+[lead4crm]: https://www.lead4crm.ru
+[bx24_with_lead4crm]: http://www.bitrix24.ru/register/reg.php?addmodule=limydesign.lead4crm
+[bx24_lead4crm]: https://www.bitrix24.ru/apps/?app=limydesign.lead4crm
