@@ -1,4 +1,5 @@
 # Site settings
+safe: false
 timezone: Asia/Irkutsk
 title: LEAD4CRM HEAD&thinsp;BLOG
 tagline: Блог разработчиков...
