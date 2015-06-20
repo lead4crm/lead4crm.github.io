@@ -163,10 +163,11 @@ jQuery(document).ready(function($){
 
   // localize date
   var d, dd,
+      weekRu = ['Вс.', 'Пн.', 'Вт.', 'Ср.', 'Чт.', 'Пт.', 'Сб.'],
       monthRu = 'января,февраля,марта,апреля,мая,июня,июля,августа,сентября,октября,ноября,декабря'.split(',');
   $('span[id^="date"]').map(function() {
     dd = $(this).text();
     d = new Date(dd);
-    $(this).html(d.getDate() + ' ' + monthRu[d.getMonth()] + ' ' + d.getFullYear());
+    $(this).html(weekRu[d.getDay()] + ', ' + d.getDate() + ' ' + monthRu[d.getMonth()] + ' ' + d.getFullYear());
   });
 });
