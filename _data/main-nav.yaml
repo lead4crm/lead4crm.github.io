@@ -1,4 +1,6 @@
-- title: "Об этом блоге" # Title/Caption of the menu item
-  href: "/about" # the page where it pointed 
+- title: "Официальный сайт"
+  href: "https://www.lead4crm.ru"
+- title: "Об этом блоге"
+  href: "/about"
 - title: "Архив"
   href: "/archive"
