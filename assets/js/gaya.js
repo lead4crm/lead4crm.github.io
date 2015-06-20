@@ -163,7 +163,8 @@ jQuery(document).ready(function($){
 
   // localize date
   var dd = $('span[id^="date"]');
+  // console.log()
   var d = new Date(dd.text());
   var monthRu = 'января,февраля,марта,апреля,мая,июня,июля,августа,сентября,октября,ноября,декабря'.split(',');
-  dd.html(d.getDate() + ' ' + monthRu[d.getMonth()] + ' ' + d.getFullYear());
+  // dd.html(d.getDate() + ' ' + monthRu[d.getMonth()] + ' ' + d.getFullYear());
 });
