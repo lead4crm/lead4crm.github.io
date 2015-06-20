@@ -131,7 +131,7 @@ jQuery(document).ready(function() {
 });
 
 /*
- * Scroll to top button
+ * Scroll to top button and localize date
  */
 jQuery(document).ready(function($){
   
@@ -161,4 +161,9 @@ jQuery(document).ready(function($){
     );
   });
 
+  // localize date
+  var dd = $('span[id^="date"]');
+  var d = new Date(dd.text());
+  var monthRu = 'января,февраля,марта,апреля,мая,июня,июля,августа,сентября,октября,ноября,декабря'.split(',');
+  dd.html(d.getDate() + ' ' + monthRu[d.getMonth()] + ' ' + d.getFullYear());
 });

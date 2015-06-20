@@ -65,10 +65,3 @@ layout: default
     }
 }
 </script>
-<script type="text/javascript">
-  $(function() {
-    var d = new Date({{ post.date }});
-    var monthRu = 'января,февраля,марта,апреля,мая,июня,июля,августа,сентября,октября,ноября,декабря'.split(',');
-    $('span[id^="date"]').html(d.getDate() + ' ' + monthRu[d.getMonth()] + ' ' + d.getFullYear());
-  });
-</script>
