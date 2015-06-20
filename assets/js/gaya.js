@@ -162,10 +162,11 @@ jQuery(document).ready(function($){
   });
 
   // localize date
-  var d,
+  var d, dd,
       monthRu = 'января,февраля,марта,апреля,мая,июня,июля,августа,сентября,октября,ноября,декабря'.split(',');
   $('span[id^="date"]').map(function() {
-    d = new Date($(this).text());
+    dd = $(this).text();
+    d = new Date(dd);
     console.log(d);
     // $(this).html(d.getDate() + ' ' + monthRu[d.getMonth()] + ' ' + d.getFullYear());
   });
