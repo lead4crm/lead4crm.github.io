@@ -68,6 +68,5 @@ layout: default
 <script type="text/javascript">
   var d = new Date({{ post.date }});
   var monthRu = 'января,февраля,марта,апреля,мая,июня,июля,августа,сентября,октября,ноября,декабря'.split(',');
-  document.getElementById('date').innerHTML = 
-    d.getDate() + ' ' + monthRu[d.getMonth()] + ' ' + d.getFullYear();
+  $('span[id*="date"]').html(d.getDate() + ' ' + monthRu[d.getMonth()] + ' ' + d.getFullYear());
 </script>
