@@ -39,7 +39,16 @@ theme:
   google_webmaster_key: BSrHLcEMpzDlCLB-uu5N24s8UD0eiinlsY6PqC7T3JU
 
   # Yandex Metrika/Webmaster key, leave blank to ignore
-  yandex_metrika_key:
+  yandex_metrika_key: 31005066
+  yandex_metrika_webvisor: true
+  yandex_metrika_trackhash: false
+  yandex_metrika_noindex: false
+  yandex_informer: true
+  yandex_informer_view: 2
+  yandex_informer_info: pageviews # pageviews, visits, uniques
+  yandex_informer_text_color: 0 # 0 - black, 1 - white
+  yandex_informer_arrow_color: 1 # 0 - gray, 1 - purple
+  yandex_informer_type_ext: true
   yandex_webmaster_key: 470b3ee274fd5437
 
 # Build settings

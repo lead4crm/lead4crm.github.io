@@ -1,0 +1,7 @@
+{% if site.theme.yandex_metrika_key and  site.theme.yandex_informer %}
+{% capture informer %}
+<a href="https://metrika.yandex.ru/stat/?id={{ site.theme.yandex_metrika_key }}&amp;from=informer"
+target="_blank" rel="nofollow"><img src="https://bs.yandex.ru/informer/{{ site.theme.yandex_metrika_key }}/{{ site.theme.yandex_informer_view }}_{{ site.theme.yandex_informer_arrow_color }}_FFFFFFFF_EFEFEFFF_{{ site.theme.yandex_informer_text_color }}_{{ site.theme.yandex_informer_view == '3' ? 'pageviews' : site.theme.yandex_informer_info }}"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика"{% if site.theme.yandex_informer_type_ext %} onclick="try{Ya.Metrika.informer({i:this,id:{{ site.theme.yandex_metrika_key }},lang:'ru'});return false}catch(e){}"{% endif %} /></a>
+{% endcapture %}{{ informer | strip_newlines }}
+{% endif %}
