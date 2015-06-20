@@ -26,7 +26,7 @@ layout: default
       </span> |
     {% endif %}
     <span class="post-date">
-    <span id="date">{{ post.date | date_to_rfc822 }}</span>{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}  
+      {% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}  
     </span>
     </p>
   </header>
