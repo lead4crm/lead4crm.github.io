@@ -30,7 +30,7 @@ layout: default
       </span> |
     {% endif %}
     <span class="post-date">
-      <span id="date">{{ post.date }}</span>{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}  
+      <span id="date">{{ post.date | date_to_rfc822 }}</span>{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}  
     </span>
     </p>
 
