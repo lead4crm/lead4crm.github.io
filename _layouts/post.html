@@ -26,7 +26,7 @@ layout: default
       </span> |
     {% endif %}
     <span class="post-date">
-    {{ page.date | localize: "%d.%m.%Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}  
+    {{ page.date | date_to_long_string }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}  
     </span>
     </p>
   </header>
