@@ -165,7 +165,8 @@ jQuery(document).ready(function($){
   var d,
       monthRu = 'января,февраля,марта,апреля,мая,июня,июля,августа,сентября,октября,ноября,декабря'.split(',');
   $('span[id^="date"]').map(function() {
+    console.log($(this).text());
     d = new Date($(this).text());
-    $(this).html(d.getDate() + ' ' + monthRu[d.getMonth()] + ' ' + d.getFullYear());
+    // $(this).html(d.getDate() + ' ' + monthRu[d.getMonth()] + ' ' + d.getFullYear());
   });
 });
