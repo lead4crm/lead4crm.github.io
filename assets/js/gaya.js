@@ -167,7 +167,6 @@ jQuery(document).ready(function($){
   $('span[id^="date"]').map(function() {
     dd = $(this).text();
     d = new Date(dd);
-    console.log(dd,d);
-    // $(this).html(d.getDate() + ' ' + monthRu[d.getMonth()] + ' ' + d.getFullYear());
+    $(this).html(d.getDate() + ' ' + monthRu[d.getMonth()] + ' ' + d.getFullYear());
   });
 });
