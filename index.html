@@ -30,7 +30,7 @@ layout: default
       </span> |
     {% endif %}
     <span class="post-date">
-    {{ post.date | date_to_string }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}  
+      <span id="date">{{ post.date | date_to_string }}</span>{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}  
     </span>
     </p>
 
@@ -64,4 +64,10 @@ layout: default
     "url": "{{ '' | prepend: site.baseurl | prepend: site.url | append: '/' }}"
     }
 }
+</script>
+<script type="text/javascript">
+  var d = new Date({{ post.date }});
+  var monthRu = 'января,февраля,марта,апреля,мая,июня,июля,августа,сентября,октября,ноября,декабря'.split(',');
+  document.getElementById('date').innerHTML = 
+    d.getDate() + ' ' + monthRu[d.getMonth()] + ' ' + d.getFullYear();
 </script>
