@@ -1,5 +1,6 @@
 # Site settings
 safe: false
+timezone: Europe/Moscow
 title: LEAD4CRM HEAD&thinsp;BLOG
 tagline: Блог разработчиков...
 email: help@lead4crm.ru
