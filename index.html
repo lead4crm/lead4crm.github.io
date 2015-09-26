@@ -43,15 +43,15 @@ layout: default
 <div class="pagination">
   
   {% if paginator.next_page %}
-      <a class="pagination-item older btn" href="{{ paginator.next_page_path | prepend: site.baseurl | append: '/' | replace: '//', '/' }}">Older</a>    
+      <a class="pagination-item older btn" href="{{ paginator.next_page_path | prepend: site.baseurl | append: '/' | replace: '//', '/' }}">Старее</a>    
   {% else %}
-    <span class="pagination-item older btn-disabled">Older</span>
+    <span class="pagination-item older btn-disabled">Старее</span>
   {% endif %}
   
   {% if paginator.previous_page %}
-    <a class="pagination-item newer btn " href="{{ paginator.previous_page_path | prepend: site.baseurl | append: '/' | replace: '//', '/' }}">Newer</a>
+    <a class="pagination-item newer btn " href="{{ paginator.previous_page_path | prepend: site.baseurl | append: '/' | replace: '//', '/' }}">Новее</a>
   {% else %}
-    <span class="pagination-item newer btn-disabled">Newer</span>
+    <span class="pagination-item newer btn-disabled">Новее</span>
   {% endif %}  
   
 </div>

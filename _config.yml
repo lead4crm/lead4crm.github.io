@@ -43,7 +43,7 @@ theme:
   yandex_metrika_webvisor: true
   yandex_metrika_trackhash: false
   yandex_metrika_noindex: false
-  yandex_informer: true
+  yandex_informer: false
   yandex_informer_view: 2
   yandex_informer_info: pageviews # pageviews, visits, uniques
   yandex_informer_text_color: 0 # 0 - black, 1 - white
